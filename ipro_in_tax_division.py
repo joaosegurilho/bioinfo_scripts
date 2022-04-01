@@ -95,7 +95,7 @@ def process_interpro_obj(ip_obj, tax_to_keep):
     return processed_obj
 
 def make_tree(ipr_obj, main_tax_id, queried_dom, save_to_dir):
-    colors = ['LightCyan','Khaki','LightSalmon','Lavender']
+    colors = ['LightCyan','Khaki','LightSalmon','Lavender'] #Workes if the tax division has only 4 children, NEED to update line 108
                     #Blastopirellula marina; Gemmata obscuriglobus; Gimesia maris; Planctopirus limnophila
     gene_manipul = ["314230", "214688", "344747", "521674"]
     
